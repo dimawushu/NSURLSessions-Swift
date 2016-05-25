@@ -29,7 +29,7 @@ enum method {
 class JSONRequest: NSObject {
     
     var delegate: JSONRequestDelegate?
-    
+    var q = ViewController()
     let urlForRequest: String!
     let requestMethod: method
     let parametrs: [String : String]!
